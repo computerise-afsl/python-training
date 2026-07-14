@@ -8,7 +8,8 @@
 ##  Materials and Setup
 
 GitHub repo which stores the training materials:
-  https://github.com/computerise-afsl/python-training
+
+https://github.com/computerise-afsl/python-training
 
 
 Binder - used to run a virtual terminal and Python scripts for Windows users:
@@ -18,8 +19,8 @@ https://mybinder.org/
 Add the link to "GitHub repository name or URL" input box in Binder and click launch. These Binder sessions can take several minutes to start, so be patient and don't refresh the page.
 
 
-> **⚠️ Important info:**
-> 1. Launch and **pre-launch the Binder link 10–15 minutes before the session starts** — cold builds can take a minute or more.
+> **⚠️ Important Info:**
+> 1. Launch Binder ASAP, cold builds can take a minute or more.
 > 2. Binder sessions are ephemeral (destroyed after ~10 min idle or when the tab closes) — anything changes that attendees want to keep, they should copy out (e.g. into a scratch file or the exercise repo) before the session ends.
 > 3. pyenv version-switching won't be meaningfully demonstrable inside Binder (the container ships with one fixed Python version) — for the Windows/Binder group, frame pyenv will be demonstration only.
 
