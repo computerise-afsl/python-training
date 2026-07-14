@@ -1,24 +1,27 @@
 # Introduction to Python Training Session
 
-**Audience:** Colleagues with little to no Python experience. Mixed OS: some on macOS with normal terminal access, many on Windows with locked-down machines (no terminal access at all, even inside the IDE).
-**Duration:** 4 hours (including breaks)
 **Goal:** By the end, attendees can confidently set up any Python project in the company (pyenv + venv + pip) and understand core language fundamentals well enough to read, write, and test simple Python code following good practices.
 
-**Setup approach:** everyone learns and types the *same* terminal commands in Part 1 — there's no separate GUI track. macOS/unlocked attendees use their local terminal. Windows/locked-down attendees use a real terminal running in the browser via [mybinder.org](https://mybinder.org) (launches a JupyterLab environment from a public GitHub repo, no signup, includes a genuine bash terminal tab where `venv`/`pip` behave exactly as on a Mac). This keeps the taught commands and mental model identical for the whole room — only the window they're typing into differs.
+**Setup approach:** everyone learns and types the *same* terminal commands in Part 1. MacOS attendees use VSCode. Windows/those without terminal access can use a real terminal running in the browser via [mybinder.org](https://mybinder.org) (launches a JupyterLab environment from a public GitHub repo, no signup, includes a genuine bash terminal tab where `venv`/`pip` behave exactly as on a Mac). This keeps the taught commands and mental model identical for the whole room — only the window they're typing into differs.
 
 
-Materials repo:
-https://github.com/computerise-afsl/python-training
+##  Materials and Setup
 
-Binder link:
+GitHub repo which stores the training materials:
+  https://github.com/computerise-afsl/python-training
 
 
+Binder - used to run a virtual terminal and Python scripts for Windows users:
 
-> **⚠️ Action items before this session:**
-> 1. Launch and **pre-launch the Binder link 10–15 minutes before the session starts** — cold builds can take a minute or more, and you don't want everyone hitting a slow build simultaneously at 0:10.
-> 2. Do **not** point Binder at any real company repo, code, or data — mybinder.org is public shared infrastructure. Use it only for the generic training exercises in this plan.
-> 3. Binder sessions are ephemeral (destroyed after ~10 min idle or when the tab closes) — anything attendees want to keep, they should copy out (e.g. into a scratch file or the exercise repo) before the session ends.
-> 4. pyenv version-switching won't be meaningfully demonstrable inside Binder (the container ships with one fixed Python version) — for the Windows/Binder group, frame pyenv as "here's the concept and the commands; venv and pip are what you'll actually use hands-on" rather than skipping it, so the terminal commands still transfer to real machines later.
+https://mybinder.org/
+
+Add the link to "GitHub repository name or URL" input box in Binder and click launch. These Binder sessions can take several minutes to start, so be patient and don't refresh the page.
+
+
+> **⚠️ Important info:**
+> 1. Launch and **pre-launch the Binder link 10–15 minutes before the session starts** — cold builds can take a minute or more.
+> 2. Binder sessions are ephemeral (destroyed after ~10 min idle or when the tab closes) — anything changes that attendees want to keep, they should copy out (e.g. into a scratch file or the exercise repo) before the session ends.
+> 3. pyenv version-switching won't be meaningfully demonstrable inside Binder (the container ships with one fixed Python version) — for the Windows/Binder group, frame pyenv will be demonstration only.
 
 ---
 

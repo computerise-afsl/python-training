@@ -1,3 +1,5 @@
+import pytest
+
 def sum_numbers(numbers):
     total = 0
     for num in numbers:

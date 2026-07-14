@@ -3,38 +3,26 @@
 
 
 def main():
-    # Core types
-    count = 5  # int
-    price = 19.99  # float
-    ticker = "AAPL"  # str
-    is_active = True  # bool
-    note = None  # None
+    name = "Alice"  # str
+    age = 30  # int
+    salary = 52000.50  # float
+    is_manager = True  # bool
+    promotion_date = None  # no value yet
 
-    print(f"{ticker} costs {price} and is active: {is_active}")
+    print(f"{name} is {age}, earns {salary}, manager: {is_manager}, promoted: {promotion_date}")
 
-    # Collections
-    employees = [
-        {"name": "Alice", "department": "Sales", "salary": 52000},
-        {"name": "Bob", "department": "Engineering", "salary": 68000},
-        {"name": "Carol", "department": "Engineering", "salary": 71000},
-        {"name": "Dave", "department": "Sales", "salary": 49000},
-    ]
+    # A list holds many values, in order
+    departments = ["Sales", "Engineering", "Finance"]
+    print(f"Departments: {departments}")
+    print(f"First department: {departments[0]}")
 
-    # Filter: only engineers
-    engineers = [e for e in employees if e["department"] == "Engineering"]
+    # A dict holds values looked up by name (a "key")
+    employee = {"name": "Alice", "department": "Sales", "salary": 52000}
+    print(f"Name: {employee['name']}")
+    print(f"Salary: {employee['salary']}")
 
-    # Transform: just the names
-    engineer_names = [e["name"] for e in engineers]
-
-    print("Engineers:", engineer_names)
-
-    # dict, tuple, set
-    departments = {"Sales", "Engineering"}
-    first_last = ("Alice", "Dave")
-    salary_by_name = {e["name"]: e["salary"] for e in employees}
-
-    print("Departments:", departments)
-    print("Salary lookup:", salary_by_name)
+    # f-strings let you build a message with variables inside it
+    print(f"{employee['name']} works in {employee['department']}")
 
 
 if __name__ == "__main__":
